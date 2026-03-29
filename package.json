@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "A Node.js-based AI personal assistant that uses LLM agents, tools, and memory to optimize daily decision-making, task execution, and performance.",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +18,11 @@
   "dependencies": {
     "dotenv": "^17.3.1",
     "openai": "^6.33.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1"
   }
 }
