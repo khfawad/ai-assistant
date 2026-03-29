@@ -1,0 +1,12 @@
+{
+  "name": "ai-assistant",
+  "version": "1.0.0",
+  "description": "A Node.js-based AI personal assistant that uses LLM agents, tools, and memory to optimize daily decision-making, task execution, and performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
