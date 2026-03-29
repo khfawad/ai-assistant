@@ -1,0 +1,51 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables (CRITICAL)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / output
+# =========================
+dist/
+build/
+
+# =========================
+# Local data (IMPORTANT for your project)
+# =========================
+data/*.json
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
